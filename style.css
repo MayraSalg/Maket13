@@ -1,0 +1,1182 @@
+header
+{
+    background-color: white;
+    height:88px;
+    width:320px;
+    position: absolute;
+
+
+}
+
+nav{
+    display: flex;
+    width: 320.16px;
+    height: 40px;
+    margin-top:20px;
+    position: relative;
+}
+
+.menu ul{
+    display: flex;
+    width:300px;
+    height:200px;
+}
+
+
+.line{
+    background-color:#D9FFF5;
+    width:320px;
+    height:1px;
+    margin-top:55px;
+
+}
+.divider{
+    background-color: #EAEAEA;
+    width:2px;
+    height:32px;
+    left:186px;
+    position:relative;
+    top:28px;
+    border-radius:1px;
+
+}
+
+.header__menu-button
+{
+    display:flex;
+    background-color: #FF3E79;
+    width:40px;
+    height:40px;
+    position:absolute;
+    left:16px;
+    top: 24px;
+
+    border-radius: 20px;
+    right:264px;
+}
+.header__menu-button .menu-button_line-1
+{
+    position: absolute;
+    background-color:white;
+    height: 2px;
+    width: 18px;
+    bottom:86%;
+    border-radius: 1px;
+    top:12px;
+    left:11px;
+
+}
+
+.header__menu-button .menu-button_line-2{
+    position: absolute;
+    background-color:white;
+    height:2.5px;
+    width: 10px;
+    border-radius: 1px;
+
+    left:11px;
+    top:19px;
+}
+
+.header__menu-button .menu-button_line-3
+{
+    position: absolute;
+    background-color:white;
+    height:2.5px;
+    width: 14px;
+    border-radius: 1px;
+
+    left:11px;
+    top:26px;}
+
+header .logo-container__logo{
+    display: flex;
+    width:24px;
+    height:30px;
+    right:68px;
+    position:absolute;
+    top:11px;
+    background-image: url("Images/Group.svg");
+    background-repeat: no-repeat;
+    background-size:23px 29px;
+}
+
+
+.repair-button{
+    display:flex;
+    background-color: #FF3E79;
+    width:40px;
+    height:40px;
+    position:absolute;
+    left:208px;
+    top: 24px;
+    border-radius: 20px;
+
+}
+
+.repair-button .repair-button_img-1{
+    width:9px;
+    height:9px;
+    background-image: url("Images/Path.svg");
+    background-repeat: no-repeat;
+    position:absolute;
+    background-size:9px 9px;
+    top:21px;
+    right:22px;
+
+}
+.repair-button .repair-button_img-2{
+    width:9px;
+    height:9px;
+    background-image: url("Images/PathEnd.svg");
+    background-repeat: no-repeat;
+    position:absolute;
+    background-size:9px 9px;
+    top:10px;
+    left:21px;
+
+}
+
+.repair-button .repair-button_img-3{
+    width:19px;
+    height:20px;
+    background-image: url("Images/PathMiddle.svg");
+    background-repeat: no-repeat;
+    position:absolute;
+    background-size:19px 20px;
+    top:10px;
+    right:11px;
+
+}
+.search-button{
+    display:flex;
+    background-color: #FF3E79;
+    width:40px;
+    height:40px;
+    position:absolute;
+    left:264px;
+    top: 24px;
+    border-radius: 20px;
+
+}
+.search-button .search-button_element-1{
+    width:16px;
+    height:20px;
+    background-image: url("Images/Searcher.svg");
+    background-repeat: no-repeat;
+    position:absolute;
+    background-size:16px 20px;
+    top:10px;
+    right:11px;
+
+}
+section{
+    position: absolute;
+    margin-top:88px;
+    display:flex;
+    width: 320px;
+    height :509px;
+    background-color:#F8F8F8;
+
+}
+section .repair-button{
+    visibility: hidden;
+}
+@font-face {
+    font-family: "TTLakes-Bold";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("TTLakes-Bold"),
+        /* Если браузер не поддерживает woff2, загрузит woff */
+    url("Fonts/TTLakes-Bold.ttf") format("tff");
+
+}
+
+@font-face {
+    font-family: "TTLakes-Regular";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("TTLakes-Regular"),
+    url("Fonts/TTLakes-Regular.ttf") format("ttf");
+
+}
+
+h1{
+    display:flex;
+    flex-direction: row;
+    width: 288px;
+    height: 40px;
+    margin-top:24px;
+    margin-left:16px;
+    position:absolute;
+    font-family: "TTLakes-Bold",sans-serif;
+    font-weight:Bold;
+    font-size :28px;
+    color:#1B1C21;
+    letter-spacing: -0.6px;
+
+}
+
+.section-green-line{
+    width:4px;
+    height: 40px;
+    margin-top:24px;
+    background-image: url("Images/highlight.svg")
+
+}
+
+.menu p{
+    position:relative;
+    font-family: "TTLakes-Regular",sans-serif;
+    font-weight:Bold;
+    font-size :16px;
+    color:#1B1C21;
+    letter-spacing: -0.2px;
+    width: 220.16px;
+    height: 24px;
+    bottom:8px;
+    left:16.54px;
+    color: #7E7E82;
+
+}
+
+
+
+article{
+    display: flex;
+    text-align: left;
+    width:288px;
+    height:90px;
+    position:absolute;
+    font-family: "TTLakes-Regular",sans-serif;
+    font-weight:400;
+    font-size :14px;
+    color:#1B1C21;
+    top:152px;
+    left:16px;
+}
+
+section .container-for-img{
+    position:absolute;
+    display: flex;
+    width:320px;
+    height:235.8px;
+
+    top:298px;
+    background-repeat: no-repeat;
+}
+.CPS-img{
+    position:absolute;
+    bottom:35px;
+    background-image: url("Images/img.jpg");
+    top:0px;
+    width:320px;
+    height:195px;
+    background-repeat: no-repeat;
+
+}
+.arrow-lower{
+    position:absolute;
+    background-repeat: no-repeat;
+    width:8px;
+    height:5px;
+    top:265px;
+    left:24px;
+    background-image: url("Images/strelochki.svg");
+
+}
+.arrow-upper{
+    position:absolute;
+    background-repeat: no-repeat;
+    width:8px;
+    height:5px;
+    top:271px;
+    left:24px;
+    background-image: url("Images/strelochki.svg");
+
+}
+.arrow-description{
+    position:absolute;
+    font-family: "TTLakes-Regular",sans-serif;
+    font-weight:700;
+    font-size :16px;
+    color:#1B1C21;
+    left:0px;
+    width:110px;
+    height:24px;
+    letter-spacing: -0.2px;
+    top:-5px;
+    left:23px;
+
+}
+section .article-760size{
+    visibility: hidden;
+    position: absolute;
+}
+
+
+@media(min-width:320px){
+    header
+    { display: flex;
+        background-color: white;
+        height:88px;
+        width:100%;
+        position: absolute;
+        margin-left:-8px;
+        margin-top:-8px;
+
+    }
+
+    .line{
+        background-color:#D9FFF5;
+        width:100%;
+        height:1px;
+        margin-top:95px;
+    }
+
+    .divider{
+        background-color: #EAEAEA;
+        width:2px;
+        height:32px;
+        left:58.12%;
+        position:relative;
+        top:28px;
+        border-radius:1px;
+
+    }
+
+    .header__menu-button
+    {
+        display:flex;
+        background-color: #FF3E79;
+        width:40px;
+        height:40px;
+        position:absolute;
+        left:16px;
+        top: 24px;
+        border-radius: 20px;
+        right:264px;
+    }
+
+    .header__menu-button .menu-button_line-1
+    {
+        position: absolute;
+        background-color:white;
+        height: 2px;
+        width: 18px;
+        bottom:86%;
+        border-radius: 1px;
+        top:12px;
+        left:11px;
+
+    }
+
+    .header__menu-button .menu-button_line-2{
+        position: absolute;
+        background-color:white;
+        height:2.5px;
+        width: 10px;
+        border-radius: 1px;
+
+        left:11px;
+        top:19px;
+    }
+
+    .header__menu-button .menu-button_line-3
+    {
+        position: absolute;
+        background-color:white;
+        height:2.5px;
+        width: 14px;
+        border-radius: 1px;
+
+        left:11px;
+        top:26px;}
+
+    header .logo-container__logo{
+        display: flex;
+        width:99px;
+        height:50px;
+        left:72px;
+        position:absolute;
+        top:18px;
+        background-image: url("Images/Group.svg");
+        background-repeat: no-repeat;
+        background-size: 99px 50px;
+    }
+
+
+    section.repair-button{
+        display: none;
+    }
+    section .search-button{
+        position: absolute;
+        visibility: hidden;
+    }
+    .repair-button{
+        display:flex;
+        background-color: #FF3E79;
+        width:40px;
+        height:40px;
+        position:absolute;
+        left:65%;
+        top: 24px;
+        border-radius: 20px;
+
+    }
+
+    .repair-button .repair-button_img-1{
+        width:9px;
+        height:9px;
+        background-image: url("Images/Path.svg");
+        background-repeat: no-repeat;
+        position:absolute;
+        background-size:9px 9px;
+        top:21px;
+        right:22px;
+
+    }
+    .repair-button .repair-button_img-2{
+        width:9px;
+        height:9px;
+        background-image: url("Images/PathEnd.svg");
+        background-repeat: no-repeat;
+        position:absolute;
+        background-size:9px 9px;
+        top:10px;
+        left:21px;
+
+    }
+
+    .repair-button .repair-button_img-3{
+        width:19px;
+        height:20px;
+        background-image: url("Images/PathMiddle.svg");
+        background-repeat: no-repeat;
+        position:absolute;
+        background-size:19px 20px;
+        top:10px;
+        right:11px;
+
+    }
+    .search-button{
+        display:flex;
+        background-color: #FF3E79;
+        width:40px;
+        height:40px;
+        position:absolute;
+        left:83.5%;
+        top: 24px;
+        border-radius: 20px;
+
+    }
+    .search-button .search-button_element-1{
+        width:16px;
+        height:20px;
+        background-image: url("Images/Searcher.svg");
+        background-repeat: no-repeat;
+        position:absolute;
+        background-size:16px 20px;
+        top:10px;
+        right:12px;
+
+    }
+    section{
+        position: absolute;
+        margin-top:88px;
+        display:flex;
+        width: 100%;
+        height :509px;
+        background-color:#F8F8F8;
+        margin-left:-8px;
+    }
+    @font-face {
+        font-family: "TTLakes-Bold";
+        font-style: normal;
+        font-weight: 400;
+        /* Браузер сначала попробует найти шрифт локально */
+        src: local("TTLakes-Bold"),
+            /* Если браузер не поддерживает woff2, загрузит woff */
+        url("Fonts/TTLakes-Bold.ttf") format("tff");
+
+    }
+
+    @font-face {
+        font-family: "TTLakes-Regular";
+        font-style: normal;
+        font-weight: 400;
+        /* Браузер сначала попробует найти шрифт локально */
+        src: local("TTLakes-Regular"),
+        url("Fonts/TTLakes-Regular.ttf") format("ttf");
+
+    }
+
+    h1{
+        display:flex;
+        flex-direction: row;
+        width: 288px;
+        height: 40px;
+        margin-top:24px;
+        margin-left:16px;
+        position:absolute;
+        font-family: "TTLakes-Bold",sans-serif;
+        font-weight:Bold;
+        font-size :28px;
+        color:#1B1C21;
+        letter-spacing: -0.6px;
+
+    }
+
+    .section-green-line{
+        width:4px;
+        height: 40px;
+        margin-top:24px;
+        background-image: url("Images/highlight.svg")
+
+    }
+
+    section.repair-button{
+        display: none;
+    }
+
+    .menu ul{
+        display: flex;
+        width:100%;
+        height:104px;
+        margin-top: 0px;
+    }
+    .bordered-menu-element{
+        display: flex;
+        left:16px;
+        background: #FFFFFF;
+        border: 2px solid #B8FFEC;
+        border-radius: 6px;
+        position: absolute;
+        height: 24px;
+        width:246px;}
+
+}
+ul li{
+    display: flex;
+    list-style: none;
+    width:223px;
+    margin-left:-5px;
+}
+li a{
+    width:221px;
+    margin-top:70px;
+    color:#7E7E82;
+    text-decoration: none;
+    font-family: "TTLakes-Regular",sans-serif;
+    font-weight:400;
+    font-size :16px;
+    text-align: center;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:16px;
+    display: block;
+
+}
+
+article{
+    display: flex;
+    text-align: left;
+    width:288px;
+    height:90px;
+    position:absolute;
+    font-family: "TTLakes-Regular",sans-serif;
+    font-weight:400;
+    font-size :14px;
+    color:#1B1C21;
+    top:152px;
+    left:16px;
+}
+
+
+section .repair-button{
+    visibility: hidden;
+}
+section .container-for-img{
+    position:absolute;
+    display: flex;
+    width:320px;
+    height:235.8px;
+    top:298px;
+    background-repeat: no-repeat;
+}
+
+.CPS-img{
+    position:absolute;
+    bottom:35px;
+    background-image: url("Images/img.jpg");
+    top:0px;
+    width:320px;
+    height:195px;
+    background-repeat: no-repeat;
+
+}
+.arrow-lower{
+    position:absolute;
+    background-repeat: no-repeat;
+    width:8px;
+    height:5px;
+    top:265px;
+    left:24px;
+    background-image: url("Images/strelochki.svg");
+
+}
+.arrow-upper{
+    position:absolute;
+    background-repeat: no-repeat;
+    width:8px;
+    height:5px;
+    top:271px;
+    left:24px;
+    background-image: url("Images/strelochki.svg");
+
+}
+.arrow-description{
+    position:absolute;
+    font-family: "TTLakes-Regular",sans-serif;
+    font-weight:700;
+    font-size :16px;
+    color:#1B1C21;
+    left:0px;
+    width:110px;
+    height:24px;
+    letter-spacing: -0.2px;
+    top:-5px;
+    left:23px;
+
+}
+
+.icon-name-zayavka{
+    position: absolute;
+    visibility: hidden;
+}
+.icon-name-status{
+    position: absolute;
+    visibility: hidden;
+}
+
+.article-1120size{
+    visibility: hidden;
+    position: absolute;
+}
+.icon-name-zayavka{
+    position: absolute;
+    visibility: hidden;
+}
+
+@media(min-width:768px) {
+    header {
+        background-color:white;
+        height: 88px;
+        width: 100%;
+        position: absolute;
+
+    }
+
+
+    section .repair-button{
+        visibility: hidden;
+    }
+    section .search-button{
+        position: absolute;
+        visibility: hidden;
+    }
+    .divider {
+        background-color: #EAEAEA;
+        width: 2px;
+        height: 32px;
+        left: 84px;
+        position: relative;
+        top: 28px;
+        border-radius: 1px;
+
+    }
+
+    header .logo-container__logo{
+        display: flex;
+        width:96px;
+        height:50px;
+        left:106px;
+        position:absolute;
+        top:18px;
+        background-image: url("Images/Group.svg");
+        background-repeat: no-repeat;
+        background-size:96px 50px;
+    }
+
+
+    .header__menu-button {
+        display: flex;
+        background-color: #FF3E79;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 24px;
+        top: 24px;
+
+        border-radius: 20px;
+        right: 264px;
+    }
+
+
+
+    .repair-button {
+        display: flex;
+        background-color: #FF3E79;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left:82.65%;
+        top: 24px;
+        border-radius: 20px;
+
+    }
+
+    .search-button {
+        display: flex;
+        background-color: #FF3E79;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 89.8%;
+        top: 24px;
+        border-radius: 20px;
+
+    }
+
+    .contact-button {
+        display: flex;
+        background-color: #FF3E79;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left:72.19%;
+        top: 24px;
+        border-radius: 20px;
+
+    }
+
+    .message-button {
+        display: flex;
+        background-color: #FF3E79;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left:65.05%;
+        top: 24px;
+        border-radius: 20px;
+
+    }
+
+    .telephone-button {
+        display: flex;
+        background-color: #FF3E79;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 57.91%;
+        top: 24px;
+        border-radius: 20px;
+    }
+
+    .tel-img {
+        width: 17.96px;
+        height: 17.96px;
+        left: 11px;
+        top: 11px;
+        display: flex;
+        position: absolute;
+        background-image: url("Images/tel.svg");
+        background-repeat: no-repeat;
+        background-size: 17.96px 17.96px;
+
+    }
+
+    .message-img {
+        width: 20px;
+        height: 20px;
+        left: 11px;
+        top: 10px;
+        display: flex;
+        position: absolute;
+        background-image: url("Images/mess.svg");
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+    }
+
+    .contact-button-element-head {
+        width: 9px;
+        height: 9px;
+        left: 16px;
+        top: 10px;
+        display: flex;
+        position: absolute;
+        background-image: url("Images/Oval.svg");
+        background-repeat: no-repeat;
+        background-size: 9px 9px;
+    }
+
+    .contact-button-element-body {
+        width: 20px;
+        height: 8px;
+        left: 11px;
+        top: 20px;
+        display: flex;
+        position: absolute;
+        background-image: url("Contb.svg");
+        background-repeat: no-repeat;
+        background-size: 20px 8px;
+    }
+
+    .divider-760size {
+        background-color: #EAEAEA;
+        width: 2px;
+        height: 32px;
+        left: 80%;
+        position: absolute;
+        top: 28px;
+        border-radius: 1px;
+    }
+
+    section {
+        position: absolute;
+        margin-top: 88px;
+        display: flex;
+        width: 100%;
+        height: 416px;
+        background-color: #F8F8F8;
+
+    }
+
+    .line {
+        background-color: #D9FFF5;
+        width: 796px;
+        height: 1px;
+
+
+    }
+    .menu ul{
+        display: flex;
+        width:100%;
+        height:104px;
+        margin-top: 0px;
+    }
+    .bordered-menu-element{
+        display: flex;
+        left:16px;
+        background: #FFFFFF;
+        border: 2px solid #B8FFEC;
+        border-radius: 6px;
+        position: absolute;
+        height: 24px;
+        width:246px;
+
+    }
+    ul li{
+        display: flex;
+        list-style: none;
+        width:223px;
+        margin-left:-5px;
+    }
+    li a{
+        width:221px;
+        margin-top:70px;
+        color:#7E7E82;
+        text-decoration: none;
+        font-family: "TTLakes-Regular",sans-serif;
+        font-weight:400;
+        font-size :16px;
+        text-align: center;
+        padding-top:8px;
+        padding-bottom:8px;
+        padding-left:16px;
+
+    }
+
+    section .article-760size {
+        position: absolute;
+        visibility: visible;
+        display: flex;
+        text-align: justify-all;
+        width: 312px;
+        height: 160px;
+        position: absolute;
+        font-family: "TTLakes-Regular", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #1B1C21;
+        top: 152px;
+        left: 16px;
+    }
+
+    .article-760size pre {
+        position: absolute;
+        width: 312px;
+        height: 160px;
+        top: 70px;
+        right: 7px;
+        font-family: "TTLakes-Regular", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #1B1C21;
+    }
+
+    article {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    section .container-for-img {
+        position: absolute;
+        display: flex;
+        width: 360px;
+        height: 259px;
+        left: 384px;
+        top: 158px;
+        background-repeat: no-repeat;
+    }
+
+    .CPS-img {
+        position: absolute;
+        bottom: 35px;
+        background-image: url("Images/for767size.svg");
+        top: 0px;
+        width: 320px;
+        height: 270px;
+        background-repeat: no-repeat;
+
+    }
+
+    .arrow-lower {
+        position: absolute;
+        background-repeat: no-repeat;
+        width: 8px;
+        height: 5px;
+        top: 345px;
+        left: 24px;
+        background-image: url(Images/strelochki.svg);
+    }
+
+    .arrow-upper {
+        position: absolute;
+        background-repeat: no-repeat;
+        width: 8px;
+        height: 5px;
+        top: 351px;
+        left: 24px;
+        background-image: url(Images/strelochki.svg);
+    }
+
+    .icon-name-zayavka{
+        position: absolute;
+        visibility: hidden;
+    }
+    section.search-button{
+        position: absolute;
+        visibility: hidden;
+    }
+    .icon-name-status{
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .article-1120size{
+        visibility: hidden;
+        position: absolute;
+    }
+}
+@media(min-width:1120px){
+    header{
+        display: none;
+    }
+    section{
+        position: absolute;
+        display:flex;
+        width: 100%;
+        height :535px;
+        background-color:#F8F8F8;
+        margin-top:-8px;
+    }
+    h1{
+
+        display:flex;
+        flex-direction: row;
+        width: 288px;
+        height: 40px;
+        margin-top:42px;
+        margin-left:32px;
+        position:absolute;
+        font-family: "TTLakes-Bold",sans-serif;
+        font-weight:Bold;
+        font-size :28px;
+        color:#1B1C21;
+        letter-spacing: -0.6px;
+
+    }
+    .section-green-line{
+        width:3px;
+        height: 40px;
+        margin-top:42px;
+        background-image: url("Images/highlight.svg")
+
+    }
+    section .repair-button{
+        visibility: visible;
+        display:flex;
+        background-color: #FF3E79;
+        width:40px;
+        height:40px;
+        position:absolute;
+        left:848px;
+        top: 42px;
+        border-radius: 20px;
+
+    }
+    @font-face {
+        font-family: "TTLakes-Regular";
+        font-style: normal;
+        font-weight: 400;
+        /* Браузер сначала попробует найти шрифт локально */
+        src: local("TTLakes-Regular"),
+        url("Fonts/TTLakes-Regular.ttf") format("ttf");
+
+    }
+    .icon-name-zayavka{
+        visibility: visible;
+        top: 50px;
+        position:absolute;
+        left:715px;
+        font-family: "TTLakes-Regular",sans-serif;
+        font-weight:500;
+        font-size :16px;
+    }
+    section .search-button {
+        visibility: visible;
+        display: flex;
+        background-color: #FF3E79;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 1048px;
+        top: 42px;
+        border-radius: 20px;
+
+    }
+    .icon-name-status{
+        visibility: visible;
+        top: 50px;
+        position:absolute;
+        left:920px;
+        font-family: "TTLakes-Regular",sans-serif;
+        font-weight:500;
+        font-size :16px;
+    }
+    .menu ul{
+        display: flex;
+        width:100%;
+        height:104px;
+        margin-top: 0px;
+
+    }
+    ul .otz{
+        display: flex;
+        margin-top:50px;
+        margin-left:-965px;
+    }
+    .bordered-menu-element{
+        display: flex;
+        left:16px;
+        background: #FFFFFF;
+        border: 2px solid #B8FFEC;
+        border-radius: 6px;
+        position: absolute;
+        height: 24px;
+        width:246px;
+
+    }
+    ul li{
+        display: flex;
+        list-style: none;
+        width:223px;
+        margin-left:-5px;
+
+    }
+    li a{
+        width:221px;
+        margin-top:70px;
+        color:#7E7E82;
+        text-decoration: none;
+        font-family: "TTLakes-Regular",sans-serif;
+        font-weight:400;
+        font-size :16px;
+        text-align: center;
+        padding-top:8px;
+        padding-bottom:8px;
+        padding-left:16px;
+
+
+    }
+
+    section .article-760size{
+        visibility: hidden;
+        position: absolute;
+    }
+    .article-1120size{
+        visibility: visible;
+        position: absolute;
+        font-family: "TTLakes-Regular",sans-serif;
+        font-weight:300;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+        left:34px;
+        top:188px;
+        width:460px;
+        height:160px;
+    }
+    .arrow-lower {
+        position: absolute;
+        background-repeat: no-repeat;
+        width: 8px;
+        height: 5px;
+        top: 369px;
+        left: 40px;
+        background-image: url(Images/strelochki.svg);
+    }
+    .arrow-upper {
+        position: absolute;
+        background-repeat: no-repeat;
+        width: 8px;
+        height: 5px;
+        top: 375px;
+        left: 40px;
+        background-image: url(Images/strelochki.svg);
+    }
+    section .container-for-img {
+        position: absolute;
+        display: flex;
+        width: 531px;
+        height: 383px;
+        left: 580px;
+        top: 32%;
+        background-repeat: no-repeat;
+    }
+
+    .CPS-img {
+        position: absolute;
+        bottom: 35px;
+        background-image: url("Images/lastimg.svg");
+        background-size:511px 307px;
+        top:0px;
+        width: 521px;
+        height: 307px;
+        background-repeat: no-repeat;
+
+    }
+
+}
