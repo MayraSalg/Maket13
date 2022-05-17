@@ -1,0 +1,238 @@
+.navigation-menu{
+    display:flex;
+    width:320px;
+    height:1024px;
+    background-color: #FFFFFF;
+    margin:-8px;
+    padding:0px;
+    box-shadow: 0 0px 40px 10px #9B9B9B;
+}
+
+.navigation__close-button{
+    display:flex;
+    background-color: #FF3E79;
+    width:40px;
+    height:40px;
+    position:absolute;
+    left:24px;
+    top: 24px;
+    border-radius: 20px;
+
+}
+.close-button_inside-element{
+    background-image: url("ImagesMenu/cross.svg");
+    width:16px;
+    height:16px;
+    left:11.5px;
+    top:11.5px;
+    position: relative;
+}
+.navigation__logo-button{
+    background-image: url("ImagesMenu/Group.svg");
+    width:97px;
+    height:51px;
+    position: absolute;
+    background-repeat: no-repeat;
+    left:80px;
+    top:18px;
+}
+.navigation__search-button{
+    display:flex;
+    background-color: #FF3E79;
+    width:40px;
+    height:40px;
+    position:relative;
+    left:267px;
+    top: 24px;
+    border-radius: 20px;
+}
+.search-button_inside-element{
+   background-image: url("ImagesMenu/search.svg");
+   background-repeat: no-repeat;
+   width:17px;
+   height:17px;
+   position:relative;
+   left:11px;
+   top:11px;
+
+}
+.navigation-menu a:hover{
+    color:#7E7E82;
+}
+.navigation__header-menu .navigation__close-button:hover{
+    transition-duration: 1s;
+    transform:rotate(45deg);
+    background-color: #ffaac9;
+
+}
+.navigation__header-menu .navigation__search-button:hover
+{
+    transition-duration: 1s;
+    transform:rotate(-60deg);
+    background-color: #ffaac9;
+
+}
+.menu-list{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.navigation-links{
+   width:200px;
+   height:400px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top:120px;
+    left:24px;
+}
+@font-face {
+    font-family: "TTLakes-Regular";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("TTLakes-Regular"),
+    url("FontsMenu/TTLakes-Regular.ttf") format("ttf");
+
+}
+.menu-list li{
+   margin-bottom:32px;
+   font-family:"TTLakes-Regular",sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    font-family:"TTLakes-Regular",sans-serif;
+    color:#1B1C21;
+}
+
+
+
+.navigation__info{
+    width:210px;
+    height: 200px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top:804px;
+    left:26px;
+    position: absolute;
+
+}
+
+.action-buttons__tel{
+    display:flex;
+    background-color: #FF3E79;
+    width:40px;
+    height:40px;
+    position:absolute;
+    left:2px;
+    top: 2px;
+    border-radius: 20px;
+
+}
+.action-buttons__tel:hover{
+    transition-duration: 1s;
+    transform:rotate(-45deg);
+    background-color: #ffaac9;
+}
+.action-buttons__message:hover{
+    transition-duration: 1s;
+    background-color: #ffaac9;
+}
+.action-buttons__contact:hover{
+    transition-duration: 1s;
+    background-color: #ffaac9;
+}
+.tel_inside-element{
+    background-image: url("ImagesMenu/tel.svg");
+    width:18px;
+    height:18px;
+    position:absolute;
+    left:10px;
+    top:10px;
+}
+.action-buttons__message{
+display:flex;
+background-color: #FF3E79;
+width:40px;
+height:40px;
+position:absolute;
+left:56px;
+top: 2px;
+border-radius: 20px;
+}
+.message_inside-element{
+    background-image: url("ImagesMenu/mess.svg");
+    width:20px;
+    height:20px;
+    position:absolute;
+    left:10px;
+    top:11px;
+
+}
+
+.action-buttons__contact{
+display:flex;
+background-color: #FF3E79;
+width:40px;
+height:40px;
+position:absolute;
+left:112px;
+top: 2px;
+border-radius: 20px;
+}
+.contact_inside-element{
+    background-image: url("ImagesMenu/Conticon.svg");
+    width:20px;
+    height:18px;
+    position:absolute;
+    left:10px;
+    top:10px;
+
+}
+
+.navigation__contacts{
+    font-family:"TTLakes-Regular",sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    top:56px;
+    position:absolute;
+}
+.navigation__contacts h1{
+    font-family:"TTLakes-Regular",sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    font-weight: 700;
+    top:92px;
+
+}
+.navigation__languages{
+    width:100px;
+    height:30px;
+    background-color: #FFFFFF;
+    top:164px;
+    position: absolute;
+    font-family:"TTLakes-Regular",sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+}
+.navigation__languages span:not(:first-child){
+    padding-left: 4px;
+
+}
+.navigation-body-container__decoration{
+    width:4px;
+    height:32px;
+    background-image: url("ImagesMenu/highlight.svg");
+    background-repeat: no-repeat;
+    top:116px;
+    position: relative;
+    z-index:1;
+    left:-40px;
+    background-size: 80%;
+}
+
