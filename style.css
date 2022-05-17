@@ -5,7 +5,6 @@ header
     width:320px;
     position: absolute;
 
-
 }
 
 nav{
@@ -242,8 +241,6 @@ h1{
 
 }
 
-
-
 article{
     display: flex;
     text-align: left;
@@ -359,7 +356,6 @@ section .text-for-767px{
         height: 2.5px;
         width: 10px;
         border-radius: 1px;
-
         left: 11px;
         top: 19px;
     }
@@ -370,7 +366,6 @@ section .text-for-767px{
         height: 2.5px;
         width: 14px;
         border-radius: 1px;
-
         left: 11px;
         top: 26px;
     }
@@ -531,7 +526,7 @@ section .text-for-767px{
         display: flex;
         width: 100%;
         height: 104px;
-        margin-top: 0px;
+        margin-top: 0;
         overflow-x: auto;
         overflow-y:auto;
         flex-wrap: nowrap;
@@ -599,7 +594,7 @@ section .text-for-767px{
         display: flex;
         width: 165%;
         height: 500px;
-        left: 0px;
+        left: 0;
         top: 25%;
         background-repeat: no-repeat;
     }
@@ -645,7 +640,7 @@ section .text-for-767px{
         font-weight: 700;
         font-size: 16px;
         color: #1B1C21;
-        left: 0px;
+        left: 0;
         width: 110px;
         height: 24px;
         letter-spacing: -0.2px;
@@ -739,7 +734,6 @@ section .text-for-767px{
         position: absolute;
         left: 24px;
         top: 24px;
-
         border-radius: 20px;
         right: 264px;
     }
@@ -885,10 +879,11 @@ section .text-for-767px{
         display: flex;
         width:100%;
         height:104px;
-        margin-top: 0px;
-        overflow-x: auto;
-        overflow-y:auto;
+        margin-top: 0;
+
         flex-wrap: nowrap;
+        white-space: nowrap;
+        overflow: visible;
         white-space: nowrap;
     }
     .bordered-menu-element{
@@ -1127,7 +1122,7 @@ section .text-for-767px{
         display: flex;
         width:100%;
         height:104px;
-        margin-top: 0px;
+        margin-top: 0;
         overflow: visible;
 
         white-space: nowrap;
@@ -1225,7 +1220,7 @@ section .text-for-767px{
         width: 100%;
         height: 90%;
         left: 560px;
-        top: 0px;
+        top: 0;
         background-repeat: no-repeat;
     }
 
