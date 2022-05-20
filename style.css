@@ -554,8 +554,8 @@ section .text-for-767px{
     }
 
     li a {
-        width: 221px;
-        margin-top: 70px;
+        width: auto;
+        margin-top: 43px;
         color: #7E7E82;
         text-decoration: none;
         font-family: "TTLakes-Regular", sans-serif;
