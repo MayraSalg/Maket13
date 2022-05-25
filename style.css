@@ -1047,7 +1047,7 @@ section .text-for-767px{
     section{
         position: absolute;
         display:flex;
-        width: 100%;
+        width: 110%;
         height :535px;
         background-color:#F8F8F8;
         margin-top:-8px;
@@ -1228,7 +1228,7 @@ position: absolute;
     section .container-for-img {
         position: absolute;
         display: flex;
-        width: 100%;
+        max-width:1200px;
         height: 90%;
         left: 560px;
         top: 0;
@@ -1241,7 +1241,7 @@ position: absolute;
         background-image: url("Images/CPS.png");
         background-size:511px 307px;
         top:200px;
-        width: 80%;
+        max-width: 1000px;
         max-height: 600px;
         background-size:60%;
         background-repeat: no-repeat;
