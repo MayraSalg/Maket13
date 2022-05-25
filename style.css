@@ -1134,13 +1134,14 @@ section .text-for-767px{
         overflow: hidden;
 position: absolute;
         white-space: nowrap;
+        margin-left:20px;
     }
     ul .otz{
         display: flex;
         flex-basis: 100%;
         position: relative;
         top:50px;
-        right:1208px;
+        right:1197px;
     }
     .bordered-menu-element{
         display: flex;
@@ -1257,6 +1258,6 @@ position: absolute;
     }
     .bordered-menu-element1{
         position: relative;
-        left:20px;
+        left:30px;
     }
 }
