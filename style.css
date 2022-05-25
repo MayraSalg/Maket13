@@ -9,7 +9,7 @@ header
 
 nav{
     display: flex;
-    
+
     height: 40px;
     margin-top:20px;
     position: relative;
@@ -521,16 +521,23 @@ section .text-for-767px{
     section.repair-button {
         display: none;
     }
+    .menu_container{
+        width:100%;
+        height:120px;
+        position: relative;
 
-    .menu ul {
+    }
+    .menu_container ul {
         display: flex;
+        flex-direction: row;
         width: 100%;
         height: 104px;
         margin-top: 0;
-        overflow-x: auto;
-        overflow-y:auto;
+        overflow-x: scroll;
+        overflow-y: hidden;
         flex-wrap: nowrap;
         white-space: nowrap;
+        position: static;
     }
 
     .bordered-menu-element {
@@ -542,15 +549,16 @@ section .text-for-767px{
         position: relative;
         height: 24px;
         width: 246px;
-
+        text-align: left;
     }
 
 
     ul li {
         display: flex;
         list-style: none;
-        width: 223px;
-        margin-left: -5px;
+        width: 100%;
+        margin-left:15px;
+        justify-content: space-evenly;
     }
 
     li a {
@@ -573,7 +581,7 @@ section .text-for-767px{
         visibility: visible;
         display: flex;
         text-align: left;
-        width: 280px;
+        width: 75%;
         height: 90px;
         position: absolute;
         font-family: "TTLakes-Regular", sans-serif;
@@ -602,11 +610,11 @@ section .text-for-767px{
     .CPS-img {
         position: relative;
         bottom: 35px;
-        background-image: url("Images/lastimg.svg");
+        background-image: url("Images/CPS.png");
         background-size:511px 307px;
         top:200px;
         width: 100%;
-        height: 50%;
+        height: 100%;
         background-size:60%;
         background-repeat: no-repeat;
 
@@ -617,7 +625,7 @@ section .text-for-767px{
         background-repeat: no-repeat;
         width: 8px;
         height: 5px;
-        top:280px;
+        top:290px;
         left: 24px;
         background-image: url("Images/strelochki.svg");
 
@@ -628,7 +636,7 @@ section .text-for-767px{
         background-repeat: no-repeat;
         width: 8px;
         height: 5px;
-        top: 288px;
+        top: 298px;
         left: 24px;
         background-image: url("Images/strelochki.svg");
 
@@ -843,7 +851,7 @@ section .text-for-767px{
         top: 20px;
         display: flex;
         position: absolute;
-        background-image: url("Contb.svg");
+        background-image: url("Images/Contb.svg");
         background-repeat: no-repeat;
         background-size: 20px 8px;
     }
@@ -971,7 +979,7 @@ section .text-for-767px{
         position: absolute;
         display: flex;
         width: 100%;
-        height: 70%;
+        height: 80%;
         left: 384px;
         top: -30px;
         background-repeat: no-repeat;
@@ -980,12 +988,12 @@ section .text-for-767px{
     .CPS-img {
         position: relative;
         bottom: 35px;
-        background-image: url("Images/lastimg.svg");
+        background-image: url("Images/CPS.png");
         background-size:511px 307px;
         top:200px;
         width: 80%;
         height: 70%;
-        background-size:60%;
+        background-size:55%;
         background-repeat: no-repeat;
 
     }
@@ -1120,17 +1128,19 @@ section .text-for-767px{
     }
     .menu ul{
         display: flex;
-        width:100%;
-        height:104px;
+        width:auto;
+        height:154px;
         margin-top: 0;
-        overflow: visible;
-
+        overflow: hidden;
+position: absolute;
         white-space: nowrap;
     }
     ul .otz{
         display: flex;
-        margin-top:50px;
-        margin-left:-965px;
+        flex-basis: 100%;
+        position: relative;
+        top:50px;
+        right:1208px;
     }
     .bordered-menu-element{
         display: flex;
@@ -1152,7 +1162,7 @@ section .text-for-767px{
 
     }
     li a{
-        width:221px;
+        position: absolute;
         margin-top:70px;
         color:#7E7E82;
         text-decoration: none;
@@ -1227,11 +1237,11 @@ section .text-for-767px{
     .CPS-img {
         position: relative;
         bottom: 35px;
-        background-image: url("Images/lastimg.svg");
+        background-image: url("Images/CPS.png");
         background-size:511px 307px;
         top:200px;
         width: 80%;
-        height: 90%;
+        max-height: 600px;
         background-size:60%;
         background-repeat: no-repeat;
 
@@ -1244,5 +1254,9 @@ section .text-for-767px{
     section .text-for-767px-part2{
         position: absolute;
         visibility: hidden
+    }
+    .bordered-menu-element1{
+        position: relative;
+        left:20px;
     }
 }
